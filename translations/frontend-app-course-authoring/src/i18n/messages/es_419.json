@@ -278,7 +278,7 @@
   "authoring.alert.error.libraries.v2.disabled": "No se puede mostrar esta página: Bibliotecas v2 está deshabilitada.",
   "course-authoring.course-optimizer.page.title": "{título del encabezado} | {nombre del curso} | {siteName}",
   "course-authoring.course-optimizer.heading.title": "Optimizador de curso",
-  "course-authoring.course-optimizer.beta": "Beta",
+  "course-authoring.course-optimizer.new": "Nuevo",
   "course-authoring.course-optimizer.heading.subtitle": "Herramientas",
   "course-authoring.course-optimizer.description": "Esta herramienta analizará su curso en busca de enlaces rotos, y cualquier enlace que apunte a páginas de la ejecución anterior de su curso. Los cambios no publicados no se incluirán en el análisis. Tenga en cuenta que este proceso tomará más tiempo en cursos más extensos.",
   "course-authoring.course-optimizer.card1.title": "Analizar mi curso",
