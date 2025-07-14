@@ -1,4 +1,10 @@
 {
+  "Hyperlink.externalLinkAltText": {
+    "string": "en una nueva pestaña"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Se abre en una nueva pestaña"
+  },
   "dropzone.Dropzone.invalidSizeLessError": {
     "developer_comment": "Un mensaje que se muestra cuando se carga en Dropzone un archivo con un tamaño inferior al mínimo permitido.",
     "string": "El archivo debe ser mayor que {size} ."
@@ -83,6 +89,10 @@
     "developer_comment": "Título del componente de filtros de la barra lateral",
     "string": "Filtros"
   },
+  "pgn.DataTable.paginationLabel": {
+    "developer_comment": "Nombre accesible para el elemento de navegación de un componente de paginación",
+    "string": "paginación de tabla"
+  },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "Se muestra un mensaje cuando el tamaño del archivo cargado debe estar dentro del rango determinado.",
     "string": "Entre {sizeMin} y {sizeMax}"
@@ -119,13 +129,25 @@
     "developer_comment": "Un mensaje que se muestra en caso de que el menú de sugerencias automáticas esté cerrado.",
     "string": "Abre el menú de opciones"
   },
+  "pgn.Modal.closeButon": {
+    "developer_comment": "Nombre accesible para el botón de cierre en el cuadro de diálogo modal",
+    "string": "Cerrar"
+  },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
     "developer_comment": "Mensaje del lector de pantalla para notificar al usuario que se encuentra en la parte inferior del paso del recorrido por el producto.",
     "string": "Parte inferior del paso {step}"
   },
+  "pgn.ProductTour.Checkpoint.page-index-text": {
+    "developer_comment": "Índice de página que muestra su posición en el ProductTour",
+    "string": "{step} of {totalSteps}"
+  },
   "pgn.ProductTour.Checkpoint.top-position-text": {
     "developer_comment": "Mensaje del lector de pantalla para notificar al usuario que se encuentra en la parte inferior del paso del recorrido por el producto.",
     "string": "Parte superior del escalón {step}"
+  },
+  "pgn.ProductTour.checkpointHeader.close": {
+    "developer_comment": "Texto alternativo de cierre para el componente ProductTour",
+    "string": "Cerrar recorrido"
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Cerrar etiqueta para el componente Toast",
