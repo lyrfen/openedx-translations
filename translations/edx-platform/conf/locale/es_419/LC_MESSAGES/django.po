@@ -23115,6 +23115,10 @@ msgstr "Se ha producido un error. Por favor, inténtalo de nuevo más tarde."
 msgid "You are enrolled in this course"
 msgstr "Te has inscrito en este curso"
 
+#: lms/templates/courseware/course_about.html:88
+msgid "Already Enrolled"
+msgstr "Ya inscrito"
+
 #: lms/templates/courseware/course_about.html:91
 #: lms/templates/courseware/course_about.html:109
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
@@ -23136,6 +23140,10 @@ msgstr "inscribirse ahora"
 #: lms/templates/courseware/course_about.html:156
 msgid "View About Page in studio"
 msgstr "Ver la página de información en Studio"
+
+#: lms/templates/courseware/course_about.html:172
+msgid "Course Summary"
+msgstr "Resumen del curso"
 
 #: lms/templates/courseware/course_about.html:184
 msgid "Classes Start"
@@ -23237,6 +23245,14 @@ msgstr "Mostrar"
 msgid "Show Earlier Course Updates"
 msgstr "Mostrar actualizaciones de cursos anteriores"
 
+#: lms/templates/courseware/courses.html:42
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "¡Desbloquea tu potencial: descubre nuevos cursos hoy!"
+
+#: lms/templates/courseware/courses.html:43
+msgid "Explore a world of knowledge and enhance your skills with our diverse range of courses"
+msgstr "Explora un mundo de conocimiento y mejora tus habilidades con nuestra amplia variedad de cursos"
+
 #: lms/templates/courseware/courses.html:60
 msgid "List of Courses"
 msgstr "Lista de cursos"
@@ -23245,6 +23261,10 @@ msgstr "Lista de cursos"
 #: lms/templates/courseware/courses.html:73
 msgid "Refine Your Search"
 msgstr "Refina tu búsqueda"
+
+#: lms/templates/courseware/courses.html:74
+msgid "Explore course"
+msgstr "Explorar curso"
 
 #: lms/templates/courseware/courseware-chromeless.html:100
 #: lms/templates/courseware/courseware.html:307
@@ -24825,6 +24845,10 @@ msgstr ""
 msgid "Discover New"
 msgstr "Descubrir nuevos"
 
+#: lms/templates/header/navbar-authenticated.html:51
+msgid "Discover"
+msgstr "Descubrir"
+
 #: lms/templates/header/navbar-logo-header.html:24
 #, python-brace-format
 msgid "{name} Dashboard"
@@ -24843,6 +24867,10 @@ msgstr "Cómo funciona"
 #: lms/templates/navigation/navbar-not-authenticated.html:24
 msgid "Schools"
 msgstr "Instituciones"
+
+#: lms/templates/header/navbar-not-authenticated.html:40
+msgid "Discover courses"
+msgstr "Descubre cursos"
 
 #: lms/templates/header/navbar-not-authenticated.html:53
 #: lms/templates/header/navbar-not-authenticated.html:57
@@ -26597,6 +26625,7 @@ msgstr ""
 " los estudiantes actualmente inscritos."
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
+#: lms/templates/header/navbar-authenticated.html:35
 msgid "My Courses"
 msgstr "Mis cursos"
 
