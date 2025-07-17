@@ -1537,7 +1537,9 @@ msgstr ""
 #: common/djangoapps/student/admin.py:531
 #, python-format
 msgid "%(count)d student account was unlocked."
-msgstr "Se desbloqueó %(count)d cuenta de estudiante."
+msgid_plural "%(count)d student accounts were unlocked."
+msgstr[0] "Se desbloqueó %(count)d cuenta de estudiante."
+msgstr[1] "Se desbloquearon %(count)d cuentas de estudiante."
 
 #: common/djangoapps/student/admin.py:588
 #, python-brace-format
@@ -2150,6 +2152,7 @@ msgstr "TIME_FORMAT"
 #. used for the %p directive in date-time formats. See http://strftime.org
 #. for details.
 #: common/djangoapps/util/date_utils.py:263
+msgctxt "am/pm indicator"
 msgid "AM"
 msgstr "AM"
 
@@ -2157,6 +2160,7 @@ msgstr "AM"
 #. used for the %p directive in date-time formats. See http://strftime.org
 #. for details.
 #: common/djangoapps/util/date_utils.py:267
+msgctxt "am/pm indicator"
 msgid "PM"
 msgstr "PM"
 
@@ -2164,6 +2168,7 @@ msgstr "PM"
 #. dates, as in "Monday Februrary 10, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:274
+msgctxt "weekday name"
 msgid "Monday"
 msgstr "Lunes"
 
@@ -2171,6 +2176,7 @@ msgstr "Lunes"
 #. dates, as in "Tuesday Februrary 11, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:278
+msgctxt "weekday name"
 msgid "Tuesday"
 msgstr "Martes"
 
@@ -2178,6 +2184,7 @@ msgstr "Martes"
 #. dates, as in "Wednesday Februrary 12, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:282
+msgctxt "weekday name"
 msgid "Wednesday"
 msgstr "Miércoles"
 
@@ -2185,6 +2192,7 @@ msgstr "Miércoles"
 #. dates, as in "Thursday Februrary 13, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:286
+msgctxt "weekday name"
 msgid "Thursday"
 msgstr "Jueves"
 
@@ -2192,6 +2200,7 @@ msgstr "Jueves"
 #. dates, as in "Friday Februrary 14, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:290
+msgctxt "weekday name"
 msgid "Friday"
 msgstr "Viernes"
 
@@ -2199,6 +2208,7 @@ msgstr "Viernes"
 #. dates, as in "Saturday Februrary 15, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:294
+msgctxt "weekday name"
 msgid "Saturday"
 msgstr "Sábado"
 
@@ -2206,6 +2216,7 @@ msgstr "Sábado"
 #. dates, as in "Sunday Februrary 16, 2014". It is used for the %A
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:298
+msgctxt "weekday name"
 msgid "Sunday"
 msgstr "Domingo"
 
@@ -2213,6 +2224,7 @@ msgstr "Domingo"
 #. displaying dates, as in "Mon Feb 10, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:305
+msgctxt "abbreviated weekday name"
 msgid "Mon"
 msgstr "Lun"
 
@@ -2220,6 +2232,7 @@ msgstr "Lun"
 #. displaying dates, as in "Tue Feb 11, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:309
+msgctxt "abbreviated weekday name"
 msgid "Tue"
 msgstr "Mar"
 
@@ -2227,6 +2240,7 @@ msgstr "Mar"
 #. displaying dates, as in "Wed Feb 12, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:313
+msgctxt "abbreviated weekday name"
 msgid "Wed"
 msgstr "Mie"
 
@@ -2234,6 +2248,7 @@ msgstr "Mie"
 #. displaying dates, as in "Thu Feb 13, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:317
+msgctxt "abbreviated weekday name"
 msgid "Thu"
 msgstr "Jue"
 
@@ -2241,6 +2256,7 @@ msgstr "Jue"
 #. displaying dates, as in "Fri Feb 14, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:321
+msgctxt "abbreviated weekday name"
 msgid "Fri"
 msgstr "Vie"
 
@@ -2248,6 +2264,7 @@ msgstr "Vie"
 #. displaying dates, as in "Sat Feb 15, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:325
+msgctxt "abbreviated weekday name"
 msgid "Sat"
 msgstr "Sab"
 
@@ -2255,6 +2272,7 @@ msgstr "Sab"
 #. displaying dates, as in "Sun Feb 16, 2014". It is used for the %a
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:329
+msgctxt "abbreviated weekday name"
 msgid "Sun"
 msgstr "Dom"
 
@@ -2262,6 +2280,7 @@ msgstr "Dom"
 #. displaying dates, as in "Jan 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:336
+msgctxt "abbreviated month name"
 msgid "Jan"
 msgstr "Ene"
 
@@ -2269,6 +2288,7 @@ msgstr "Ene"
 #. displaying dates, as in "Feb 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:340
+msgctxt "abbreviated month name"
 msgid "Feb"
 msgstr "Feb"
 
@@ -2276,6 +2296,7 @@ msgstr "Feb"
 #. displaying dates, as in "Mar 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:344
+msgctxt "abbreviated month name"
 msgid "Mar"
 msgstr "Mar"
 
@@ -2283,6 +2304,7 @@ msgstr "Mar"
 #. displaying dates, as in "Apr 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:348
+msgctxt "abbreviated month name"
 msgid "Apr"
 msgstr "Abr"
 
@@ -2290,13 +2312,15 @@ msgstr "Abr"
 #. displaying dates, as in "May 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:352
+msgctxt "abbreviated month name"
 msgid "May"
-msgstr "Mayo"
+msgstr "May"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jun 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:356
+msgctxt "abbreviated month name"
 msgid "Jun"
 msgstr "Jun"
 
@@ -2304,6 +2328,7 @@ msgstr "Jun"
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:360
+msgctxt "abbreviated month name"
 msgid "Jul"
 msgstr "Jul"
 
@@ -2311,6 +2336,7 @@ msgstr "Jul"
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:364
+msgctxt "abbreviated month name"
 msgid "Aug"
 msgstr "Ago"
 
@@ -2318,6 +2344,7 @@ msgstr "Ago"
 #. displaying dates, as in "Sep 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:368
+msgctxt "abbreviated month name"
 msgid "Sep"
 msgstr "Sep"
 
@@ -2325,6 +2352,7 @@ msgstr "Sep"
 #. displaying dates, as in "Oct 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:372
+msgctxt "abbreviated month name"
 msgid "Oct"
 msgstr "Oct"
 
@@ -2332,6 +2360,7 @@ msgstr "Oct"
 #. displaying dates, as in "Nov 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:376
+msgctxt "abbreviated month name"
 msgid "Nov"
 msgstr "Nov"
 
@@ -2339,6 +2368,7 @@ msgstr "Nov"
 #. displaying dates, as in "Dec 10, 2014". It is used for the %b
 #. directive in date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:380
+msgctxt "abbreviated month name"
 msgid "Dec"
 msgstr "Dic"
 
@@ -2346,6 +2376,7 @@ msgstr "Dic"
 #. dates, as in "January 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:387
+msgctxt "month name"
 msgid "January"
 msgstr "Enero"
 
@@ -2353,6 +2384,7 @@ msgstr "Enero"
 #. dates, as in "February 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:391
+msgctxt "month name"
 msgid "February"
 msgstr "Febrero"
 
@@ -2360,6 +2392,7 @@ msgstr "Febrero"
 #. dates, as in "March 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:395
+msgctxt "month name"
 msgid "March"
 msgstr "Marzo"
 
@@ -2367,6 +2400,7 @@ msgstr "Marzo"
 #. dates, as in "April 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:399
+msgctxt "month name"
 msgid "April"
 msgstr "Abril"
 
@@ -2374,6 +2408,7 @@ msgstr "Abril"
 #. dates, as in "May 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:403
+msgctxt "month name"
 msgid "May"
 msgstr "Mayo"
 
@@ -2381,6 +2416,7 @@ msgstr "Mayo"
 #. dates, as in "June 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:407
+msgctxt "month name"
 msgid "June"
 msgstr "Junio"
 
@@ -2388,6 +2424,7 @@ msgstr "Junio"
 #. dates, as in "July 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:411
+msgctxt "month name"
 msgid "July"
 msgstr "Julio"
 
@@ -2395,6 +2432,7 @@ msgstr "Julio"
 #. dates, as in "August 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:415
+msgctxt "month name"
 msgid "August"
 msgstr "Agosto"
 
@@ -2402,6 +2440,7 @@ msgstr "Agosto"
 #. dates, as in "September 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:419
+msgctxt "month name"
 msgid "September"
 msgstr "Septiembre"
 
@@ -2409,6 +2448,7 @@ msgstr "Septiembre"
 #. dates, as in "October 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:423
+msgctxt "month name"
 msgid "October"
 msgstr "Octubre"
 
@@ -2416,6 +2456,7 @@ msgstr "Octubre"
 #. dates, as in "November 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:427
+msgctxt "month name"
 msgid "November"
 msgstr "Noviembre"
 
@@ -2423,13 +2464,16 @@ msgstr "Noviembre"
 #. dates, as in "December 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:431
+msgctxt "month name"
 msgid "December"
 msgstr "Diciembre"
 
 #: common/djangoapps/util/file.py:67
 #, python-brace-format
 msgid "The file must end with the extension '{file_types}'."
-msgstr "El archivo debe terminar con la extensión '{file_types}'."
+msgid_plural "The file must end with one of the following extensions: '{file_types}'."
+msgstr[0] "El archivo debe terminar con la extensión '{file_types}'."
+msgstr[1] "El archivo debe terminar con una de las siguientes extensiones: '{file_types}'."
 
 #: common/djangoapps/util/file.py:73
 #, python-brace-format
@@ -2467,117 +2511,153 @@ msgstr "Contraseña incorrecta"
 #: common/djangoapps/util/password_policy_validators.py:149
 #, python-format
 msgid "at least %(min_length)d character"
-msgstr "al menos %(min_length)d carácter"
+msgid_plural "at least %(min_length)d characters"
+msgstr[0] "al menos %(min_length)d carácter"
+msgstr[1] "al menos %(min_length)d caracteres"
 
 #: common/djangoapps/util/password_policy_validators.py:175
 #, python-format
 msgid ""
 "This password is too long. It must contain no more than %(max_length)d "
 "character."
-msgstr ""
-"Esta contraseña es demasiado larga. No debe contener más de %(max_length)d "
-"carácter."
+msgid_plural ""
+"This password is too long. It must contain no more than %(max_length)d "
+"characters."
+msgstr[0] "Esta contraseña es demasiado larga. Debe contener como máximo %(max_length)d carácter."
+msgstr[1] "Esta contraseña es demasiado larga. Debe contener como máximo %(max_length)d caracteres."
 
 #: common/djangoapps/util/password_policy_validators.py:185
 #, python-format
 msgid "Your password must contain no more than %(max_length)d character."
-msgstr "Tu contraseña no debe contener más de %(max_length)d carácter."
+msgid_plural "Your password must contain no more than %(max_length)d characters."
+msgstr[0] "Tu contraseña debe contener como máximo %(max_length)d carácter."
+msgstr[1] "Tu contraseña debe contener como máximo %(max_length)d caracteres."
 
 #: common/djangoapps/util/password_policy_validators.py:213
 #, python-format
 msgid "This password must contain at least %(min_alphabetic)d letter."
-msgstr "Esta contraseña debe contener al menos %(min_alphabetic)d letra."
+msgid_plural "This password must contain at least %(min_alphabetic)d letters."
+msgstr[0] "Esta contraseña debe contener al menos %(min_alphabetic)d letra."
+msgstr[1] "Esta contraseña debe contener al menos %(min_alphabetic)d letras."
 
 #: common/djangoapps/util/password_policy_validators.py:223
 #, python-format
 msgid "Your password must contain at least %(min_alphabetic)d letter."
-msgstr "Tu contraseña debe contener al menos %(min_alphabetic)d letra."
+msgid_plural "Your password must contain at least %(min_alphabetic)d letters."
+msgstr[0] "Tu contraseña debe contener al menos %(min_alphabetic)d letra."
+msgstr[1] "Tu contraseña debe contener al menos %(min_alphabetic)d letras."
 
 #: common/djangoapps/util/password_policy_validators.py:231
 #, python-format
 msgid "%(num)d letter"
-msgstr "%(num)d letra"
+msgid_plural "%(num)d letters"
+msgstr[0] "%(num)d letra"
+msgstr[1] "%(num)d letras"
 
 #: common/djangoapps/util/password_policy_validators.py:261
 #, python-format
 msgid "This password must contain at least %(min_numeric)d number."
-msgstr "Esta contraseña debe contener al menos %(min_numeric)d número."
+msgid_plural "This password must contain at least %(min_numeric)d numbers."
+msgstr[0] "Esta contraseña debe contener al menos %(min_numeric)d número."
+msgstr[1] "Esta contraseña debe contener al menos %(min_numeric)d números."
 
 #: common/djangoapps/util/password_policy_validators.py:271
 #, python-format
 msgid "Your password must contain at least %(min_numeric)d number."
-msgstr "Tu contraseña debe contener al menos %(min_numeric)d número."
+msgid_plural "Your password must contain at least %(min_numeric)d numbers."
+msgstr[0] "Tu contraseña debe contener al menos %(min_numeric)d número."
+msgstr[1] "Tu contraseña debe contener al menos %(min_numeric)d números."
 
 #: common/djangoapps/util/password_policy_validators.py:279
 #, python-format
 msgid "%(num)d number"
-msgstr "%(num)d número"
+msgid_plural "%(num)d numbers"
+msgstr[0] "%(num)d número"
+msgstr[1] "%(num)d números"
 
 #: common/djangoapps/util/password_policy_validators.py:309
 #, python-format
 msgid "This password must contain at least %(min_upper)d uppercase letter."
-msgstr "Esta contraseña debe contener al menos %(min_upper)d letra mayúscula."
+msgid_plural "This password must contain at least %(min_upper)d uppercase letters."
+msgstr[0] "Esta contraseña debe contener al menos %(min_upper)d letra mayúscula."
+msgstr[1] "Esta contraseña debe contener al menos %(min_upper)d letras mayúsculas."
 
 #: common/djangoapps/util/password_policy_validators.py:319
 #, python-format
 msgid "Your password must contain at least %(min_upper)d uppercase letter."
-msgstr "Tu contraseña debe contener al menos %(min_upper)d letra mayúscula."
+msgid_plural "Your password must contain at least %(min_upper)d uppercase letters."
+msgstr[0] "Tu contraseña debe contener al menos %(min_upper)d letra mayúscula."
+msgstr[1] "Tu contraseña debe contener al menos %(min_upper)d letras mayúsculas."
 
 #: common/djangoapps/util/password_policy_validators.py:327
 #, python-format
 msgid "%(num)d uppercase letter"
-msgstr "%(num)d letra mayúscula"
+msgid_plural "%(num)d uppercase letters"
+msgstr[0] "%(num)d letra mayúscula"
+msgstr[1] "%(num)d letras mayúsculas"
 
 #: common/djangoapps/util/password_policy_validators.py:357
 #, python-format
 msgid "This password must contain at least %(min_lower)d lowercase letter."
-msgstr "Esta contraseña debe contener al menos %(min_lower)d letra minúscula."
+msgid_plural "This password must contain at least %(min_lower)d lowercase letters."
+msgstr[0] "Esta contraseña debe contener al menos %(min_lower)d letra minúscula."
+msgstr[1] "Esta contraseña debe contener al menos %(min_lower)d letras minúsculas."
 
 #: common/djangoapps/util/password_policy_validators.py:367
 #, python-format
 msgid "Your password must contain at least %(min_lower)d lowercase letter."
-msgstr "Tu contraseña debe contener al menos %(min_lower)d letra minúscula."
+msgid_plural "Your password must contain at least %(min_lower)d lowercase letters."
+msgstr[0] "Tu contraseña debe contener al menos %(min_lower)d letra minúscula."
+msgstr[1] "Tu contraseña debe contener al menos %(min_lower)d letras minúsculas."
 
 #: common/djangoapps/util/password_policy_validators.py:375
 #, python-format
 msgid "%(num)d lowercase letter"
-msgstr "%(num)d letra minúscula"
+msgid_plural "%(num)d lowercase letters"
+msgstr[0] "%(num)d letra minúscula"
+msgstr[1] "%(num)d letras minúsculas"
 
 #: common/djangoapps/util/password_policy_validators.py:406
 #, python-format
-msgid ""
-"This password must contain at least %(min_punctuation)d punctuation mark."
-msgstr ""
-"Esta contraseña debe contener al menos %(min_punctuation)d signo de "
-"puntuación."
+msgid "This password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural "This password must contain at least %(min_punctuation)d punctuation marks."
+msgstr[0] "Esta contraseña debe contener al menos %(min_punctuation)d signo de puntuación."
+msgstr[1] "Esta contraseña debe contener al menos %(min_punctuation)d signos de puntuación."
 
 #: common/djangoapps/util/password_policy_validators.py:416
 #, python-format
-msgid ""
-"Your password must contain at least %(min_punctuation)d punctuation mark."
-msgstr ""
-"Tu contraseña debe contener al menos %(min_punctuation)d signo de "
-"puntuación."
+msgid "Your password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural "Your password must contain at least %(min_punctuation)d punctuation marks."
+msgstr[0] "Tu contraseña debe contener al menos %(min_punctuation)d signo de puntuación."
+msgstr[1] "Tu contraseña debe contener al menos %(min_punctuation)d signos de puntuación."
 
 #: common/djangoapps/util/password_policy_validators.py:424
 #, python-format
 msgid "%(num)d punctuation mark"
-msgstr "%(num)d signo de puntuación"
+msgid_plural "%(num)d punctuation marks"
+msgstr[0] "%(num)d signo de puntuación"
+msgstr[1] "%(num)d signos de puntuación"
 
 #: common/djangoapps/util/password_policy_validators.py:454
 #, python-format
 msgid "This password must contain at least %(min_symbol)d symbol."
-msgstr "Esta contraseña debe contener al menos %(min_symbol)d símbolo."
+msgid_plural "This password must contain at least %(min_symbol)d symbols."
+msgstr[0] "Esta contraseña debe contener al menos %(min_symbol)d símbolo."
+msgstr[1] "Esta contraseña debe contener al menos %(min_symbol)d símbolos."
 
 #: common/djangoapps/util/password_policy_validators.py:464
 #, python-format
 msgid "Your password must contain at least %(min_symbol)d symbol."
-msgstr "Tu contraseña debe contener al menos %(min_symbol)d símbolo."
+msgid_plural "Your password must contain at least %(min_symbol)d symbols."
+msgstr[0] "Tu contraseña debe contener al menos %(min_symbol)d símbolo."
+msgstr[1] "Tu contraseña debe contener al menos %(min_symbol)d símbolos."
 
 #: common/djangoapps/util/password_policy_validators.py:472
 #, python-format
 msgid "%(num)d symbol"
-msgstr "%(num)d símbolo"
+msgid_plural "%(num)d symbols"
+msgstr[0] "%(num)d símbolo"
+msgstr[1] "%(num)d símbolos"
 
 #: common/djangoapps/xblock_django/admin.py:22
 msgid ""
@@ -3826,12 +3906,25 @@ msgstr ""
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"                    You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s "
+"time a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
+"goals a reality.\n"
 "                    "
-msgstr ""
+msgid_plural ""
 "\n"
-"                    Estableciste una meta de estudiar {start_bold}%(days_per_week)s veces por semana en %(course_name)s{end_bold}. Ahora depende de ti hacerla realidad.\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s "
+"times a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
+"goals a reality.\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    Estableciste un objetivo de estudiar {start_bold}%(days_per_week)s vez por semana en %(course_name)s{end_bold}. Ahora depende de ti hacer realidad ese objetivo.\n"
 "                    "
+msgstr[1] ""
+"\n"
+"                    Estableciste un objetivo de estudiar {start_bold}%(days_per_week)s veces por semana en %(course_name)s{end_bold}. Ahora depende de ti hacer realidad esos objetivos.\n"
+"                "
+
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
 msgid ""
@@ -4020,7 +4113,9 @@ msgstr "Deshabilitado"
 #: lms/djangoapps/course_home_api/outline/serializers.py:33
 #, python-brace-format
 msgid "({number} Question)"
-msgstr "({number} pregunta)"
+msgid_plural "({number} Questions)"
+msgstr[0] "({number} pregunta)"
+msgstr[1] "({number} preguntas)"
 
 #: lms/djangoapps/course_home_api/outline/views.py:293
 #, python-brace-format
@@ -5697,12 +5792,16 @@ msgstr "0 enviados"
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py:90
 #, python-brace-format
 msgid "{num_emails} sent"
-msgstr "{num_emails} enviados"
+msgid_plural "{num_emails} sent"
+msgstr[0] "{num_emails} enviado"
+msgstr[1] "{num_emails} enviados"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py:99
 #, python-brace-format
 msgid "{num_emails} failed"
-msgstr "{num_emails} fallidos"
+msgid_plural "{num_emails} failed"
+msgstr[0] "{num_emails} falló"
+msgstr[1] "{num_emails} fallaron"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py:140
 msgid "Complete"
@@ -9010,9 +9109,9 @@ msgid ""
 "<{strong}>{author_name}</{strong}> response in a post you’re following "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><{strong}>{replier_name}</{strong}> comentó en la respuesta de "
-"<{strong}>{author_name}</{strong>} en una publicación que sigues "
-"<{strong}>{post_title}</{strong}></{p}>"
+"<{p}><{strong}>{replier_name}</{strong}> comentó sobre la respuesta de <{strong}>{author_name}"
+"</{strong}> en una publicación que estás siguiendo <{strong}>{post_title}</"
+"{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:135
 #, python-brace-format
@@ -11123,7 +11222,9 @@ msgstr ""
 #: openedx/features/personalized_learner_schedules/call_to_action.py:145
 #, python-brace-format
 msgid "Try again ({attempts} attempt remaining)"
-msgstr "Intenta nuevamente (queda {attempts} intento)"
+msgid_plural "Try again ({attempts} attempts remaining)"
+msgstr[0] "Intenta de nuevo (queda {attempts} intento)"
+msgstr[1] "Intenta de nuevo (quedan {attempts} intentos)"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:150
 #, python-brace-format
@@ -12010,17 +12111,23 @@ msgstr ""
 #: xmodule/capa_block.py:1393
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
-msgstr "Incorrecto ({progress} punto)"
+msgid_plural "Incorrect ({progress} points)"
+msgstr[0] "Incorrecto ({progress} punto)"
+msgstr[1] "Incorrecto ({progress} puntos)"
 
 #: xmodule/capa_block.py:1402
 #, python-brace-format
 msgid "Correct ({progress} point)"
-msgstr "Correcto ({progress} punto)"
+msgid_plural "Correct ({progress} points)"
+msgstr[0] "Correcto ({progress} punto)"
+msgstr[1] "Correcto ({progress} puntos)"
 
 #: xmodule/capa_block.py:1411
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
-msgstr "Parcialmente correcto ({progress} punto)"
+msgid_plural "Partially correct ({progress} points)"
+msgstr[0] "Parcialmente correcto ({progress} punto)"
+msgstr[1] "Parcialmente correcto ({progress} puntos)"
 
 #: xmodule/capa_block.py:1416
 msgid "Partially Correct"
@@ -12056,17 +12163,23 @@ msgstr ""
 #: xmodule/capa_block.py:2010
 #, python-brace-format
 msgid "{num_hour} hour"
-msgstr "{num_hour} hora"
+msgid_plural "{num_hour} hours"
+msgstr[0] "{num_hour} hora"
+msgstr[1] "{num_hour} horas"
 
 #: xmodule/capa_block.py:2015
 #, python-brace-format
 msgid "{num_minute} minute"
-msgstr "{num_minute} minuto"
+msgid_plural "{num_minute} minutes"
+msgstr[0] "{num_minute} minuto"
+msgstr[1] "{num_minute} minutos"
 
 #: xmodule/capa_block.py:2021
 #, python-brace-format
 msgid "{num_second} second"
-msgstr "{num_second} segundo"
+msgid_plural "{num_second} seconds"
+msgstr[0] "{num_second} segundo"
+msgstr[1] "{num_second} segundos"
 
 #: xmodule/capa_block.py:2141
 msgid "Problem needs to be reset prior to save."
@@ -13490,13 +13603,16 @@ msgstr "Seleccione otro tipo de ejercicio."
 #: xmodule/library_content_block.py:355
 #, python-brace-format
 msgid "The specified library is configured to fetch {count} problem, "
-msgstr ""
-"La biblioteca especificada está configurada para obtener {count} problema, "
+msgid_plural "The specified library is configured to fetch {count} problems, "
+msgstr[0] "La biblioteca especificada está configurada para obtener {count} problema, "
+msgstr[1] "La biblioteca especificada está configurada para obtener {count} problemas, "
 
 #: xmodule/library_content_block.py:360
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
-msgstr "pero solo hay {actual} problema que coincide."
+msgid_plural "but there are only {actual} matching problems."
+msgstr[0] "pero solo hay {actual} problema coincidente."
+msgstr[1] "pero solo hay {actual} problemas coincidentes."
 
 #: xmodule/library_content_block.py:366
 msgid "Edit the library configuration."
@@ -14268,9 +14384,18 @@ msgid ""
 "\n"
 "                Learners will see the selected component:\n"
 "                "
-msgstr ""
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected "
+"components, in random order:\n"
+"                "
+msgstr[0] ""
 "\n"
 "                Los estudiantes verán el componente seleccionado:\n"
+"                "
+msgstr[1] ""
+"\n"
+"                Los estudiantes verán los %(num_selected)s componentes seleccionados, en orden aleatorio:\n"
 "                "
 
 #: xmodule/templates/item_bank/author_view.html:32
@@ -14394,7 +14519,9 @@ msgstr "Básico"
 #: xmodule/video_block/video_block.py:605
 #, python-brace-format
 msgid "There is no transcript file associated with the {lang} language."
-msgstr "No hay un archivo de transcripción asociado al idioma {lang}."
+msgid_plural "There are no transcript files associated with the {lang} languages."
+msgstr[0] "No hay ningún archivo de transcripción asociado con el idioma {lang}."
+msgstr[1] "No hay archivos de transcripción asociados con los idiomas {lang}."
 
 #: xmodule/video_block/video_block.py:936
 msgid ""
@@ -18438,12 +18565,13 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "Showing all matching content eligible to be added into {display_name}. Each "
-"student will be assigned {max_count} component drawn randomly from this "
+"student will be assigned {max_count} component drawn randomly from this list."
+msgid_plural ""
+"Showing all matching content eligible to be added into {display_name}. Each "
+"student will be assigned {max_count} components drawn randomly from this "
 "list."
-msgstr ""
-"Mostrando todo el contenido coincidente elegible para ser agregado a "
-"{display_name}. A cada estudiante se le asignará {max_count} componente "
-"seleccionado aleatoriamente de esta lista."
+msgstr[0] "Mostrando todo el contenido coincidente que puede añadirse a {display_name}. A cada estudiante se le asignará {max_count} componente seleccionado aleatoriamente de esta lista."
+msgstr[1] "Mostrando todo el contenido coincidente que puede añadirse a {display_name}. A cada estudiante se le asignarán {max_count} componentes seleccionados aleatoriamente de esta lista."
 
 #: cms/templates/library.html:49
 msgid "Content Library"
@@ -20234,13 +20362,17 @@ msgstr "Este es un foro privado. No tienes permiso para ver este foro."
 #: lms/templates/discussion/_user_profile.html:8
 #, python-format
 msgid "%s discussion started"
-msgstr "%s discusión iniciada"
+msgid_plural "%s discussions started"
+msgstr[0] "%s discusión iniciada"
+msgstr[1] "%s discusiones iniciadas"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:56
 #: lms/templates/discussion/_user_profile.html:9
 #, python-format
 msgid "%s comment"
-msgstr "%s comentario"
+msgid_plural "%s comments"
+msgstr[0] "%s comentario"
+msgstr[1] "%s comentarios"
 
 #: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html:10
 msgid "Discussion unavailable"
@@ -20440,6 +20572,7 @@ msgstr "Debería Registrarse antes de acceder a la Unidad"
 
 #: lms/templates/courseware/course_about.html:292
 #: lms/templates/enroll_staff.html:34
+msgctxt "self"
 msgid "Enroll"
 msgstr "Inscribirse"
 
@@ -20788,7 +20921,9 @@ msgstr "Mostrar la respuesta"
 #: lms/templates/problem.html:93
 #, python-brace-format
 msgid "You have used {num_used} of {num_total} attempt"
-msgstr "Has utilizado {num_used} de {num_total} intento(s)"
+msgid_plural "You have used {num_used} of {num_total} attempts"
+msgstr[0] "Has usado {num_used} de {num_total} intento"
+msgstr[1] "Has usado {num_used} de {num_total} intentos"
 
 #: lms/templates/problem.html:96
 #, python-brace-format
@@ -20904,11 +21039,13 @@ msgstr "¡Importante!"
 
 #. Translators: A button for showing the Previous Unit
 #: lms/templates/seq_block.html:32 lms/templates/seq_block.html:140
+msgctxt "unit"
 msgid "Previous"
 msgstr "Anterior"
 
 #. Translators: A button for showing the Next Unit
 #: lms/templates/seq_block.html:36 lms/templates/seq_block.html:144
+msgctxt "unit"
 msgid "Next"
 msgstr "Siguiente"
 
@@ -22568,6 +22705,7 @@ msgstr ""
 
 #: lms/templates/ccx/enrollment.html:57
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:53
+msgctxt "someone"
 msgid "Enroll"
 msgstr "Inscribirse"
 
@@ -23030,8 +23168,9 @@ msgid "Additional Resources"
 msgstr "Recursos adicionales"
 
 #: lms/templates/courseware/course_about.html:297
+msgctxt "self"
 msgid "enroll"
-msgstr "Inscribirse"
+msgstr "inscribirse"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:14
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:8
